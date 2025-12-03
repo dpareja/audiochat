@@ -5,7 +5,7 @@ Sistema de chat en tiempo real usando audio ultrasónico. Todos los participante
 ## Características
 
 - 💬 **Chat en tiempo real**: Envía y recibe mensajes instantáneamente
-- 🔇 **Ultrasónico**: Usa frecuencias 17-20.4 kHz (casi silencioso)
+- 🔇 **Ultrasónico**: Usa frecuencias 18.5-21.5 kHz (casi silencioso)
 - 📡 **Broadcast**: Todos escuchan todos los mensajes
 - 👥 **Multi-usuario**: Múltiples personas pueden chatear simultáneamente
 - 🏷️ **Nombres de usuario**: Cada mensaje muestra quién lo envió
@@ -39,7 +39,7 @@ Ejemplo con 3 usuarios:
 $ python3 audio_chat.py Alice
 🎧 AudioChat inicializado
    Usuario: Alice
-   Frecuencias: 17000-20395 Hz
+   Frecuencias: 18500-21930 Hz
 
 💬 Chat iniciado. Escribe tus mensajes:
    (Ctrl+C para salir)
@@ -77,7 +77,7 @@ $ python3 audio_chat.py Charlie
 1. **Escucha continua**: Cada usuario escucha constantemente por mensajes
 2. **Broadcast**: Cuando alguien escribe, todos lo escuchan
 3. **Identificación**: Cada mensaje incluye el nombre del remitente
-4. **Ultrasónico**: Usa frecuencias inaudibles (17-20.4 kHz)
+4. **Ultrasónico**: Usa frecuencias inaudibles (18.5-21.5 kHz)
 5. **Sin servidor**: Comunicación directa por audio
 
 ## Formato de Mensaje
